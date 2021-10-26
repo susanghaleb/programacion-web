@@ -1,0 +1,55 @@
+.container {
+  border: 3px solid black;
+  padding: 1px;
+  margin: 1px;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  background-color: red;
+  border: 2px solid black;
+  text-align: center;
+  text-decoration-color: white;
+  padding: 2px;
+  margin: 2px;
+}
+.logo {
+  padding: 10px;
+  border-radius: 50%;
+}
+
+.nombre_compania {
+  width: 100%;
+  text-align: center;
+  color: white;
+}
+.parrafo {
+  font-size: 14px;
+}
+.cuerpo_pagina {
+  display: inline-flex;
+}
+
+.descripcion_lista_anidada {
+  list-style: circle;
+}
+
+.aside {
+  flex: 1;
+  border: 2px solid black;
+  padding: 2px;
+  margin: 2px;
+}
+
+.tamaño_texto {
+  font-size: 16px;
+}
+
+.pie_de_pagina {
+  height: 100px;
+  border: 2px solid black;
+  text-align: center;
+  padding: 2px;
+  margin: 2px;
+}
